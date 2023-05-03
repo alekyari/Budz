@@ -48,14 +48,14 @@ const Modal_login = ({ setModalIsVisibility }) => {
         <form onSubmit={onHandleSubmit}>
           <input
             type="text"
-            placeholder="username"
+            placeholder="username: please type 'admin'"
             onChange={onHandleUsername}
             value={userName}
             required
           />
           <input
             type="password"
-            placeholder="password"
+            placeholder="password: please type 'cb6'"
             onChange={onHandlePassword}
             value={password}
             required
