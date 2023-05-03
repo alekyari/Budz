@@ -184,14 +184,14 @@ export default function Home({ artistData, trackData, albumData, radioData }) {
                 <form onSubmit={onHandleSubmit}>
                   <input
                     type="text"
-                    placeholder="username"
+                    placeholder="username: admin"
                     onChange={onHandleUsername}
                     value={userName}
                     required
                   />
                   <input
                     type="password"
-                    placeholder="password"
+                    placeholder="password: cb6"
                     onChange={onHandlePassword}
                     value={password}
                     required
